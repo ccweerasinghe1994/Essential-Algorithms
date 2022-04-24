@@ -309,7 +309,16 @@ random data, what is its `average-case` `performance`?
 To get a feeling for how problem size relates to performance, computer scientists use `Big O notation`, which is described in the following section.
 
 #### Big O Notation
+Big O notation uses a function to describe how the algorithm’s worst-case
+performance relates to the problem size as the size grows very large. (This is
+sometimes called the program’s asymptotic performance.) The function is written
+within parentheses after a capital letter O.
 
+For example, O(N ) 2 means that an algorithm’s run time (or memory usage or
+whatever you’re measuring) increases as the square of the number of inputs N.
+If you double the number of inputs, the run time increases by roughly a factor
+of 4. Similarly, if you triple the number of inputs, the run time increases by a
+factor of 9.
 #### Rule
 
 #### Rule

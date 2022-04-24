@@ -64,6 +64,47 @@ It may be tempting to skip this chapter and jump to studying specific algorithms
 can mean the difference between an algorithm performing its task in seconds,
 hours, or not at all.
 ### Approach 
+To get the most out of an algorithm, you must be able to do more than simply
+follow its steps. You need to understand the following:
+
+`The algorithm’s behavior` Does it find the best possible solution, or does it
+just find a good solution? Could there be multiple best solutions? Is there a
+reason to pick one “best” solution over the others?
+
+`The algorithm’s speed` Is it fast? Slow? Is it usually fast but sometimes slow
+for certain inputs?
+
+`The algorithm’s memory requirements` How much memory will the algorithm
+need? Is this a reasonable amount? Does the algorithm require billions of
+terabytes more memory than a computer could possibly have (at least today)?
+
+`The main techniques the algorithm uses` Can you reuse those techniques to
+solve similar problems?
+
+This book covers all of these topics. It does not, however, attempt to cover
+every detail of every algorithm with mathematical precision. It uses an intuitive
+approach to explain algorithms and their performance, but it does not analyze
+performance in rigorous detail. Although that kind of proof can be interesting,
+it can also be confusing and take up a lot of space, providing a level of detail
+that is unnecessary for most programmers. This book, after all, is intended
+primarily for programmers who need to get a job done.
+
+This book’s chapters group algorithms that have related themes. Sometimes
+the theme is the task that they perform (`sorting, searching, network algorithms`),
+sometimes it’s the data structures they use (`linked lists, arrays, hash tables, trees`),
+and sometimes it’s the techniques they use (`recursion, decision trees, distributed
+algorithms`). At a high level, these groupings may seem arbitrary, but when you
+read about the algorithms, you’ll see that they fit together.
+
+In addition to those categories, many algorithms have underlying themes that
+cross chapter boundaries. For example, tree algorithms (Chapters 10, 11, and 12)
+tend to be `highly recursive` (Chapter 9). `Linked lists` (Chapter 3) can be used to
+build `arrays` (Chapter 4), `hash tables` (Chapter 8), `stacks` (Chapter 5), and `queues`
+(Chapter 5). The ideas of `references` and `pointers` are used to build `linked lists`
+(Chapter 3), `trees` (Chapters 10, 11, and 12), and `networks` (Chapters 13 and 14). As
+you read, watch for these common threads. Appendix A summarizes common
+strategies programs use to make these ideas easier to follow.
+
 #### Algorithms and Data Structures 2
 #### Pseudocode 
 #### Algorithm Features 

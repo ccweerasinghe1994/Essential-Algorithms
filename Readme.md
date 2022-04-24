@@ -106,6 +106,20 @@ you read, watch for these common threads. Appendix A summarizes common
 strategies programs use to make these ideas easier to follow.
 
 #### Algorithms and Data Structures 2
+An `algorithm` is a recipe for performing a certain `task`. A `data structure` is a way
+of `arranging data` to make solving a particular `problem` easier. A `data structure` could be a way of arranging `values` in an `array`, a `linked list` that connects items
+in a certain `pattern`, a `tree`, a `graph`, a `network`, or something even more `exotic`.
+
+`Algorithms` are often closely tied to `data structures`. For example, the edit
+distance algorithm described in Chapter 15, `“String Algorithms,”` uses a `network` to determine how similar two strings are. The algorithm is tied closely to
+the `network` and won’t work without it. Conversely, the `algorithm` builds and
+uses the `network`, so the `network` isn’t useful (or really even built) without the
+`algorithm`.
+
+Often an `algorithm` says, *“Build a certain data structure and then use it in a
+certain way*.” The algorithm can’t exist without the data structure, and there’s no
+point in building the data structure if you don’t plan to use it with the algorithm.
+
 #### Pseudocode 
 #### Algorithm Features 
 #### Big O Notation 

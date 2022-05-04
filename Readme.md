@@ -1,29 +1,29 @@
-# Essential Algorithms
+# 🛩️Essential Algorithms🛩️
 
-- [Essential Algorithms](#essential-algorithms)
-  - [Chapter 1 Algorithm Basics](#chapter-1-algorithm-basics)
-    - [Approach](#approach)
-      - [Algorithms and Data Structures 2](#algorithms-and-data-structures-2)
-      - [Pseudocode](#pseudocode)
-      - [Algorithm Features](#algorithm-features)
-      - [Big O Notation](#big-o-notation)
-      - [Rule](#rule)
-      - [Rule](#rule-1)
-      - [Rule](#rule-2)
-      - [Rule](#rule-3)
-      - [Rule](#rule-4)
-      - [Common Run Time Functions](#common-run-time-functions)
-      - [Log N](#log-n)
-      - [Sqrt N](#sqrt-n)
-      - [N](#n)
-      - [N log N](#n-log-n)
-      - [N2](#n2)
-      - [2N](#2n)
-      - [N!](#n-1)
-      - [Visualizing Functions](#visualizing-functions)
-      - [Practical Considerations](#practical-considerations)
-      - [Summary](#summary)
-      - [Exercises](#exercises)
+- [🛩️Essential Algorithms🛩️](#️essential-algorithms️)
+  - [🚨Chapter 1 Algorithm Basics🚨](#chapter-1-algorithm-basics)
+    - [�Approach](#approach)
+      - [🗼Algorithms and Data Structures 2](#algorithms-and-data-structures-2)
+      - [🗼Pseudocode](#pseudocode)
+      - [🗼Algorithm Features](#algorithm-features)
+      - [🗼Big O Notation](#big-o-notation)
+      - [🗼Rule](#rule)
+      - [🗼Rule](#rule-1)
+      - [🗼Rule](#rule-2)
+      - [🗼Rule](#rule-3)
+      - [🗼Rule](#rule-4)
+      - [🗼Common Run Time Functions](#common-run-time-functions)
+      - [🗼Log N](#log-n)
+      - [🗼Sqrt N](#sqrt-n)
+      - [🗼N](#n)
+      - [🗼N log N](#n-log-n)
+      - [🗼N2](#n2)
+      - [🗼2N](#2n)
+      - [🗼N!](#n-1)
+      - [🗼Visualizing Functions](#visualizing-functions)
+      - [🗼Practical Considerations](#practical-considerations)
+      - [🗼Summary](#summary)
+      - [🗼Exercises](#exercises)
   - [Chapter 2 Numerical Algorithms](#chapter-2-numerical-algorithms)
   - [Chapter 3 Linked Lists](#chapter-3-linked-lists)
   - [Chapter 4 Arrays](#chapter-4-arrays)
@@ -47,7 +47,7 @@
   - [Glossary](#glossary)
   - [Index](#index)
 
-## Chapter 1 Algorithm Basics
+## 🚨Chapter 1 Algorithm Basics🚨
 
 Before you jump into the study of `algorithms`, you need a little background. To
 begin with, you need to know that, simply stated, an algorithm is a `recipe for getting something done`. It defines the steps for performing a task in a certain way.
@@ -65,7 +65,7 @@ It may be tempting to skip this chapter and jump to studying specific algorithms
 can mean the difference between an algorithm performing its task in seconds,
 hours, or not at all.
 
-### Approach
+### 🚁Approach
 
 To get the most out of an algorithm, you must be able to do more than simply
 follow its steps. You need to understand the following:
@@ -107,7 +107,7 @@ build `arrays` (Chapter 4), `hash tables` (Chapter 8), `stacks` (Chapter 5), and
 you read, watch for these common threads. Appendix A summarizes common
 strategies programs use to make these ideas easier to follow.
 
-#### Algorithms and Data Structures 2
+#### 🗼Algorithms and Data Structures 2
 
 An `algorithm` is a recipe for performing a certain `task`. A `data structure` is a way
 of `arranging data` to make solving a particular `problem` easier. A `data structure` could be a way of arranging `values` in an `array`, a `linked list` that connects items
@@ -123,7 +123,7 @@ Often an `algorithm` says, _“Build a certain data structure and then use it in
 certain way_.” The algorithm can’t exist without the data structure, and there’s no
 point in building the data structure if you don’t plan to use it with the algorithm.
 
-#### Pseudocode
+#### 🗼Pseudocode
 
 To make the algorithms described in this book as useful as possible, they are
 first described in intuitive English terms. From this `high-level` explanation, you
@@ -261,7 +261,7 @@ One problem with `pseudocode` is that it has `no` `compiler` to detect `errors`.
 check of the basic algorithm and to give you some actual code to use for a reference, `C#` and `Python` implementations of many of the algorithms and exercises
 are available for download on the book’s website.
 
-#### Algorithm Features
+#### 🗼Algorithm Features
 
 A `good algorithm` must have three features: `correctness`, `maintainability`, and
 `efficiency`.
@@ -308,7 +308,7 @@ random data, what is its `average-case` `performance`?
 
 To get a feeling for how problem size relates to performance, computer scientists use `Big O notation`, which is described in the following section.
 
-#### Big O Notation
+#### 🗼Big O Notation
 Big O notation uses a function to describe how the algorithm’s worst-case
 performance relates to the problem size as the size grows very large. (This is
 sometimes called the program’s asymptotic performance.) The function is written
@@ -319,39 +319,39 @@ whatever you’re measuring) increases as the square of the number of inputs N.
 If you double the number of inputs, the run time increases by roughly a factor
 of 4. Similarly, if you triple the number of inputs, the run time increases by a
 factor of 9.
-#### Rule
+#### 🗼Rule
 
-#### Rule
+#### 🗼Rule
 
-#### Rule
+#### 🗼Rule
 
-#### Rule
+#### 🗼Rule
 
-#### Rule
+#### 🗼Rule
 
-#### Common Run Time Functions
+#### 🗼Common Run Time Functions
 
-#### Log N
+#### 🗼Log N
 
-#### Sqrt N
+#### 🗼Sqrt N
 
-#### N
+#### 🗼N
 
-#### N log N
+#### 🗼N log N
 
-#### N2
+#### 🗼N2
 
-#### 2N
+#### 🗼2N
 
-#### N!
+#### 🗼N!
 
-#### Visualizing Functions
+#### 🗼Visualizing Functions
 
-#### Practical Considerations
+#### 🗼Practical Considerations
 
-#### Summary
+#### 🗼Summary
 
-#### Exercises
+#### 🗼Exercises
 
 ## Chapter 2 Numerical Algorithms
 

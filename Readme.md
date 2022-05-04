@@ -2,7 +2,7 @@
 
 - [🛩️Essential Algorithms🛩️](#️essential-algorithms️)
   - [🚨Chapter 1 Algorithm Basics🚨](#chapter-1-algorithm-basics)
-    - [�Approach](#approach)
+    - [🚁Approach](#approach)
       - [🗼Algorithms and Data Structures 2](#algorithms-and-data-structures-2)
       - [🗼Pseudocode](#pseudocode)
       - [🗼Algorithm Features](#algorithm-features)
@@ -170,7 +170,7 @@ The first actual line of code is the algorithm’s declaration. This algorithm i
 called Gcd and `returns` an `integer` result. It takes two parameters named `a` and
 `b`, both of which are `integers`.
 
-`NOTE` _Chunks of code that perform a `task`, optionally returning a `result`, are variously called `routines`, `subroutines`, `methods`, `procedures`, `sub procedures`, or `functions`_
+🚨`NOTE` _Chunks of code that perform a `task`, optionally returning a `result`, are variously called `routines`, `subroutines`, `methods`, `procedures`, `sub procedures`, or `functions`_🚨
 
 The code after the declaration is `indented` to show that it is part of the `method`.
 The first line in the method’s body begins a `While loop`. The code indented below
@@ -281,10 +281,10 @@ algorithm is `simple, intuitive, and elegant`, you can be confident that it is p
 `confusing`, and `convoluted`, you may have a lot of `trouble` implementing it, and
 you will have even more `trouble fixing` it if a bug arises. If it’s hard to understand, how can you know if it is producing correct results?
 
-`NOTE`**This doesn’t mean that it isn’t worth studying confusing and difficult algorithms. Even if you have trouble implementing an algorithm, you may learn a lot in the
+🚨`NOTE`**This doesn’t mean that it isn’t worth studying confusing and difficult algorithms. Even if you have trouble implementing an algorithm, you may learn a lot in the
 attempt. Over time, your algorithmic intuition and skill will increase, so algorithms
 you once thought were confusing will seem easier to handle. You must always test all
-algorithms thoroughly, however, to make sure that they are producing correct results.**
+algorithms thoroughly, however, to make sure that they are producing correct results.**🚨
 
 Most developers spend a lot of effort on `efficiency`, and efficiency is certainly
 important. If an algorithm produces a correct result and is simple to implement
@@ -319,6 +319,7 @@ whatever you’re measuring) increases as the square of the number of inputs N.
 If you double the number of inputs, the run time increases by roughly a factor
 of 4. Similarly, if you triple the number of inputs, the run time increases by a
 factor of 9.
+
 #### 🗼Rule
 
 #### 🗼Rule

@@ -48,7 +48,7 @@
   - [Index](#index)
 
 ## 🚨Chapter 1 Algorithm Basics🚨
-
+****
 Before you jump into the study of `algorithms`, you need a little background. To
 begin with, you need to know that, simply stated, an algorithm is a `recipe for getting something done`. It defines the steps for performing a task in a certain way.
 That definition seems simple enough, but no one writes algorithms for
@@ -66,7 +66,7 @@ can mean the difference between an algorithm performing its task in seconds,
 hours, or not at all.
 
 ### 🚁Approach
-
+****
 To get the most out of an algorithm, you must be able to do more than simply
 follow its steps. You need to understand the following:
 
@@ -108,7 +108,7 @@ you read, watch for these common threads. Appendix A summarizes common
 strategies programs use to make these ideas easier to follow.
 
 #### 🗼Algorithms and Data Structures 2
-
+****
 An `algorithm` is a recipe for performing a certain `task`. A `data structure` is a way
 of `arranging data` to make solving a particular `problem` easier. A `data structure` could be a way of arranging `values` in an `array`, a `linked list` that connects items
 in a certain `pattern`, a `tree`, a `graph`, a `network`, or something even more `exotic`.
@@ -124,7 +124,7 @@ certain way_.” The algorithm can’t exist without the data structure, and the
 point in building the data structure if you don’t plan to use it with the algorithm.
 
 #### 🗼Pseudocode
-
+****
 To make the algorithms described in this book as useful as possible, they are
 first described in intuitive English terms. From this `high-level` explanation, you
 should be able to implement the algorithm in most programming languages.
@@ -169,9 +169,9 @@ The pseudocode `starts` with a comment. `Comments` begin with the characters
 The first actual line of code is the algorithm’s declaration. This algorithm is
 called Gcd and `returns` an `integer` result. It takes two parameters named `a` and
 `b`, both of which are `integers`.
-
+****
 🚨`NOTE` _Chunks of code that perform a `task`, optionally returning a `result`, are variously called `routines`, `subroutines`, `methods`, `procedures`, `sub procedures`, or `functions`_🚨
-
+****
 The code after the declaration is `indented` to show that it is part of the `method`.
 The first line in the method’s body begins a `While loop`. The code indented below
 the While statement is `executed` as long as the `condition` in the While statement
@@ -262,7 +262,7 @@ check of the basic algorithm and to give you some actual code to use for a refer
 are available for download on the book’s website.
 
 #### 🗼Algorithm Features
-
+****
 A `good algorithm` must have three features: `correctness`, `maintainability`, and
 `efficiency`.
 
@@ -280,12 +280,12 @@ If an algorithm isn’t `maintainable`, it’s `dangerous` to use in a `program`
 algorithm is `simple, intuitive, and elegant`, you can be confident that it is producing `correct results` and you can fix it if it doesn’t. If the algorithm is `intricate`,
 `confusing`, and `convoluted`, you may have a lot of `trouble` implementing it, and
 you will have even more `trouble fixing` it if a bug arises. If it’s hard to understand, how can you know if it is producing correct results?
-
+****
 🚨`NOTE`This doesn’t mean that it isn’t worth studying confusing and difficult algorithms. Even if you have trouble implementing an algorithm, you may learn a lot in the
 attempt. Over time, your algorithmic intuition and skill will increase, so algorithms
 you once thought were confusing will seem easier to handle. You must always test all
 algorithms thoroughly, however, to make sure that they are producing correct results.🚨
-
+****
 Most developers spend a lot of effort on `efficiency`, and efficiency is certainly
 important. If an algorithm produces a correct result and is simple to implement
 and debug, it’s still not much use if it takes seven years to finish or if it requires
@@ -309,6 +309,7 @@ random data, what is its `average-case` `performance`?
 To get a feeling for how problem size relates to performance, computer scientists use `Big O notation`, which is described in the following section.
 
 #### 🗼Big O Notation
+****
 Big O notation uses a function to describe how the algorithm’s worst-case
 performance relates to the problem size as the size grows very large. (This is
 sometimes called the program’s asymptotic performance.) The function is written
@@ -328,79 +329,80 @@ performance of `order N squared`.”🚨
 ****
 
 #### 🗼Rule
-
+****
 #### 🗼Rule
-
+****
 #### 🗼Rule
-
+****
 #### 🗼Rule
-
+****
 #### 🗼Rule
-
+****
 #### 🗼Common Run Time Functions
-
+****
 #### 🗼Log N
-
+****
 #### 🗼Sqrt N
-
+****
 #### 🗼N
-
+****
 #### 🗼N log N
-
+****
 #### 🗼N2
-
+****
 #### 🗼2N
-
+****
 #### 🗼N!
-
+****
 #### 🗼Visualizing Functions
-
+****
 #### 🗼Practical Considerations
-
+****
 #### 🗼Summary
-
+****
 #### 🗼Exercises
-
+****
 ## Chapter 2 Numerical Algorithms
-
+****
 ## Chapter 3 Linked Lists
-
+****
 ## Chapter 4 Arrays
-
+****
 ## Chapter 5 Stacks and Queues
-
+****
 ## Chapter 6 Sorting
-
+****
 ## Chapter 7 Searching
-
+****
 ## Chapter 8 Hash Tables
-
+****
 ## Chapter 9 Recursion
-
+****
 ## Chapter 10 Trees
-
+****
 ## Chapter 11 Balanced Trees
-
+****
 ## Chapter 12 Decision Trees
-
+****
 ## Chapter 13 Basic Network Algorithms
-
+****
 ## Chapter 14 More Network Algorithms
-
+****
 ## Chapter 15 String Algorithms
-
+****
 ## Chapter 16 Cryptography
-
+****
 ## Chapter 17 Complexity Theory
-
+****
 ## Chapter 18 Distributed Algorithms
-
+****
 ## Chapter 19 Interview Puzzles
-
+****
 ## Appendix A Summary of Algorithmic Concepts
-
+****
 ## Appendix B Solutions to Exercises
-
+****
 ## Glossary
-
+****
 ## Index
+****

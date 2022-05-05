@@ -7,11 +7,11 @@
       - [🗼Pseudocode](#pseudocode)
       - [🗼Algorithm Features](#algorithm-features)
       - [🗼Big O Notation](#big-o-notation)
-  - [#### 🗼Rule](#-rule)
-      - [🗼Rule](#rule)
-  - [#### 🗼Rule](#-rule-1)
-  - [#### 🗼Rule](#-rule-2)
-  - [#### 🗼Rule](#-rule-3)
+  - [#### 🗼Rule 1](#-rule-1)
+      - [🗼Rule 2](#rule-2)
+  - [#### 🗼Rule 3](#-rule-3)
+  - [#### 🗼Rule 4](#-rule-4)
+  - [#### 🗼Rule 5](#-rule-5)
       - [🗼Common Run Time Functions](#common-run-time-functions)
       - [🗼Log N](#log-n)
       - [🗼Sqrt N](#sqrt-n)
@@ -368,7 +368,7 @@ These rules may seem a bit formal, with all that talk of f(N) and g(N), but
 they’re fairly easy to apply. If they seem confusing, a few examples should make
 them easier to understand.
 
-#### 🗼Rule
+#### 🗼Rule 1
 ---
 If an algorithm performs a certain sequence of steps f(N) times for a mathematical
 function f, then it takes O(f(N)) steps.
@@ -400,7 +400,7 @@ algorithm can execute more than a few steps with a fixed number of code lines un
 it contains some sort of loop.
 Study an algorithm’s loops to figure out how much time it takes.
 ****
-#### 🗼Rule
+#### 🗼Rule 2
 
 ---
 If an algorithm performs an operation that takes O(f(N)) steps and then performs a second operation that takes O(g(N)) steps for functions f and g, then
@@ -426,7 +426,7 @@ performance O(1) (they’re each just a single step), so the total run time for 
 algorithm is really O(1+1+N). You can use normal algebra to combine terms
 to rewrite this as O(2+N).
 
-#### 🗼Rule
+#### 🗼Rule 3
 ---
 If an algorithm takes O(f(N)+g(N)) time and the function f(N) is greater than
 g(N) for large N, then the algorithm’s performance can be simplified to O(f(N)).
@@ -438,7 +438,7 @@ behavior as the problem size becomes very large. It also lets you ignore relativ
 small setup and cleanup tasks. If an algorithm spends some time building
 simple data structures and otherwise getting ready to perform a big computation, you can ignore the setup time as long as it’s small compared to the length
 of the main calculation.
-#### 🗼Rule
+#### 🗼Rule 4
 ---
 If an algorithm performs an operation that takes O(f(N)) steps, and for every
 step in that operation it performs another O(g(N)) steps, then the algorithm’s
@@ -467,7 +467,7 @@ For each trip through the outer loop, the inner loop also iterates over the N
 items in the array, so it also takes O(N) steps.
 Because one loop is nested inside the other, the combined performance is
 O N ( ) N O(N2).
-#### 🗼Rule
+#### 🗼Rule 5
 ---
 Ignore constant multiples. If C is a constant, O(Cxf(N)) is the same as O(f(N)),
 and O(f(CxN)) is the same as O(f(N)).

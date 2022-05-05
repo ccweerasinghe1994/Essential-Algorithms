@@ -7,11 +7,11 @@
       - [🗼Pseudocode](#pseudocode)
       - [🗼Algorithm Features](#algorithm-features)
       - [🗼Big O Notation](#big-o-notation)
+  - [#### 🗼Rule](#-rule)
       - [🗼Rule](#rule)
-      - [🗼Rule](#rule-1)
-      - [🗼Rule](#rule-2)
-      - [🗼Rule](#rule-3)
-      - [🗼Rule](#rule-4)
+  - [#### 🗼Rule](#-rule-1)
+  - [#### 🗼Rule](#-rule-2)
+  - [#### 🗼Rule](#-rule-3)
       - [🗼Common Run Time Functions](#common-run-time-functions)
       - [🗼Log N](#log-n)
       - [🗼Sqrt N](#sqrt-n)
@@ -48,7 +48,9 @@
   - [Index](#index)
 
 ## 🚨Chapter 1 Algorithm Basics🚨
-****
+
+---
+
 Before you jump into the study of `algorithms`, you need a little background. To
 begin with, you need to know that, simply stated, an algorithm is a `recipe for getting something done`. It defines the steps for performing a task in a certain way.
 That definition seems simple enough, but no one writes algorithms for
@@ -66,7 +68,9 @@ can mean the difference between an algorithm performing its task in seconds,
 hours, or not at all.
 
 ### 🚁Approach
-****
+
+---
+
 To get the most out of an algorithm, you must be able to do more than simply
 follow its steps. You need to understand the following:
 
@@ -108,7 +112,9 @@ you read, watch for these common threads. Appendix A summarizes common
 strategies programs use to make these ideas easier to follow.
 
 #### 🗼Algorithms and Data Structures 2
-****
+
+---
+
 An `algorithm` is a recipe for performing a certain `task`. A `data structure` is a way
 of `arranging data` to make solving a particular `problem` easier. A `data structure` could be a way of arranging `values` in an `array`, a `linked list` that connects items
 in a certain `pattern`, a `tree`, a `graph`, a `network`, or something even more `exotic`.
@@ -124,7 +130,9 @@ certain way_.” The algorithm can’t exist without the data structure, and the
 point in building the data structure if you don’t plan to use it with the algorithm.
 
 #### 🗼Pseudocode
-****
+
+---
+
 To make the algorithms described in this book as useful as possible, they are
 first described in intuitive English terms. From this `high-level` explanation, you
 should be able to implement the algorithm in most programming languages.
@@ -169,9 +177,13 @@ The pseudocode `starts` with a comment. `Comments` begin with the characters
 The first actual line of code is the algorithm’s declaration. This algorithm is
 called Gcd and `returns` an `integer` result. It takes two parameters named `a` and
 `b`, both of which are `integers`.
-****
-🚨`NOTE` _Chunks of code that perform a `task`, optionally returning a `result`, are variously called `routines`, `subroutines`, `methods`, `procedures`, `sub procedures`, or `functions`_🚨
-****
+
+---
+
+🚨`NOTE` *Chunks of code that perform a `task`, optionally returning a `result`, are variously called `routines`, `subroutines`, `methods`, `procedures`, `sub procedures`, or `functions`*🚨
+
+---
+
 The code after the declaration is `indented` to show that it is part of the `method`.
 The first line in the method’s body begins a `While loop`. The code indented below
 the While statement is `executed` as long as the `condition` in the While statement
@@ -262,7 +274,9 @@ check of the basic algorithm and to give you some actual code to use for a refer
 are available for download on the book’s website.
 
 #### 🗼Algorithm Features
-****
+
+---
+
 A `good algorithm` must have three features: `correctness`, `maintainability`, and
 `efficiency`.
 
@@ -280,12 +294,16 @@ If an algorithm isn’t `maintainable`, it’s `dangerous` to use in a `program`
 algorithm is `simple, intuitive, and elegant`, you can be confident that it is producing `correct results` and you can fix it if it doesn’t. If the algorithm is `intricate`,
 `confusing`, and `convoluted`, you may have a lot of `trouble` implementing it, and
 you will have even more `trouble fixing` it if a bug arises. If it’s hard to understand, how can you know if it is producing correct results?
-****
+
+---
+
 🚨`NOTE`This doesn’t mean that it isn’t worth studying confusing and difficult algorithms. Even if you have trouble implementing an algorithm, you may learn a lot in the
 attempt. Over time, your algorithmic intuition and skill will increase, so algorithms
 you once thought were confusing will seem easier to handle. You must always test all
 algorithms thoroughly, however, to make sure that they are producing correct results.🚨
-****
+
+---
+
 Most developers spend a lot of effort on `efficiency`, and efficiency is certainly
 important. If an algorithm produces a correct result and is simple to implement
 and debug, it’s still not much use if it takes seven years to finish or if it requires
@@ -309,7 +327,9 @@ random data, what is its `average-case` `performance`?
 To get a feeling for how problem size relates to performance, computer scientists use `Big O notation`, which is described in the following section.
 
 #### 🗼Big O Notation
-****
+
+---
+
 Big O notation uses a function to describe how the algorithm’s worst-case
 performance relates to the problem size as the size grows very large. (This is
 sometimes called the program’s asymptotic performance.) The function is written
@@ -320,101 +340,315 @@ whatever you’re measuring) increases as the square of the number of inputs N.
 If you double the number of inputs, the run time increases by roughly a factor
 of 4. Similarly, if you triple the number of inputs, the run time increases by a
 factor of 9.
-****
+
+---
 
 🚨`NOTE` Often `O(N2)` is pronounced `“order N squared.”` For example, you might
 say, “The `quicksort` algorithm described in Chapter 6, `‘Sorting`,’ has a `worst-case`
 performance of `order N squared`.”🚨
 
-****
+---
+
 There are `five` basic `rules` for calculating an algorithm’s `Big O` notation.
+
 1. If an algorithm performs a certain sequence of steps `f(N)` times for a mathematical function f, then it takes `O(f(N))` steps.
 2. If an algorithm performs an operation that takes `O(f(N))` steps and then
-performs a second operation that takes `O(g(N))` steps for functions `f` and
-g`, then the algorithm’s total performance is `O(f(N) g(N))`.
+   performs a second operation that takes `O(g(N))` steps for functions `f` and
+   g`, then the algorithm’s total performance is` `O(f(N) g(N))`.
 3. If an algorithm takes `O(f(N) + g(N))` time and the function `f(N)` is `greater`
-than `g(N)` for `large N`, then the algorithm’s performance can be `simplified`
-to `O(f(N))`.
+   than `g(N)` for `large N`, then the algorithm’s performance can be `simplified`
+   to `O(f(N))`.
 4. If an algorithm performs an operation that takes `O(f(N))` steps, and for
-every step in that operation it performs another `O(g(N))` steps, then the
-algorithm’s total performance is `O( ) f(N) g(N)` .
-5. Ignore constant multiples. If C is a constant, O C ( ) f(N) is the same as
-O(f(N)), and O(f(C N)) is the same as O(f(N)).
+   every step in that operation it performs another `O(g(N))` steps, then the
+   algorithm’s total performance is `O(f(N) x g(N)) ` .
+5. Ignore constant multiples. If `C` is a `constant`, ` O (Cxf(N)` is the same as
+   `O(f(N))`, and `O(f(C N))` is the same as `O(f(N))`.
+
+These rules may seem a bit formal, with all that talk of f(N) and g(N), but
+they’re fairly easy to apply. If they seem confusing, a few examples should make
+them easier to understand.
+
 #### 🗼Rule
+---
+If an algorithm performs a certain sequence of steps f(N) times for a mathematical
+function f, then it takes O(f(N)) steps.
+Consider the following algorithm, written in pseudocode, for finding the
+largest integer in an array:🔥
+
+```pseudocode
+Integer: FindLargest(Integer: array[])
+Integer: largest = array[0]
+For i = 1 To <largest index>
+If (array[i] > largest) Then largest = array[i]
+Next i
+Return largest
+End FindLargest
+```
+🔥The FindLargest algorithm takes as a parameter an array of integers and
+returns an integer result. It starts by setting the variable largest equal to the
+first value in the array.
+
+It then loops through the remaining values in the array, comparing each to
+largest. If it finds a value that is larger than largest, the program sets largest equal to that value.
+
+After it finishes the loop, the algorithm returns largest.
+This algorithm examines each of the N items in the array once, so it has O(N)
+performance.
+****
+⚠️ **NOTE** ⚠️ Often algorithms spend most of their time in loops. There’s no way an
+algorithm can execute more than a few steps with a fixed number of code lines unless
+it contains some sort of loop.
+Study an algorithm’s loops to figure out how much time it takes.
 ****
 #### 🗼Rule
-****
+
+---
+If an algorithm performs an operation that takes O(f(N)) steps and then performs a second operation that takes O(g(N)) steps for functions f and g, then
+the algorithm’s total performance is O(f(N) g(N)).
+
+If you look again at the FindLargest algorithm shown in the preceding section, you’ll see that a few steps are not actually inside the loop. The following
+pseudocode shows the same steps, with their run time order shown to the right
+in comments:🔥
+
+```pseudocode
+Integer: FindLargest(Integer: array[])
+Integer: largest = array[0] // O(1)
+For i = 1 To <largest index> // O(N)
+If (array[i] > largest) Then largest = array[i]
+Next i
+Return largest // O(1)
+End FindLargest
+```
+🔥
+This algorithm performs one setup step before it enters its loop and then
+performs one more step after it finishes the loop. Both of those steps have
+performance O(1) (they’re each just a single step), so the total run time for the
+algorithm is really O(1+1+N). You can use normal algebra to combine terms
+to rewrite this as O(2+N).
+
 #### 🗼Rule
-****
+---
+If an algorithm takes O(f(N)+g(N)) time and the function f(N) is greater than
+g(N) for large N, then the algorithm’s performance can be simplified to O(f(N)).
+The preceding example showed that the FindLargest algorithm has run time
+O(2+N). When N grows large, the function N is larger than the constant value
+2, so O(2 N) simplifies to O(N).
+Ignoring the smaller function lets you focus on the algorithm’s asymptotic
+behavior as the problem size becomes very large. It also lets you ignore relatively
+small setup and cleanup tasks. If an algorithm spends some time building
+simple data structures and otherwise getting ready to perform a big computation, you can ignore the setup time as long as it’s small compared to the length
+of the main calculation.
 #### 🗼Rule
-****
+---
+If an algorithm performs an operation that takes O(f(N)) steps, and for every
+step in that operation it performs another O(g(N)) steps, then the algorithm’s
+total performance is O(f(N)xg(N)).
+Consider the following algorithm that determines whether an array contains
+any duplicate items. (Note that this isn’t the most efficient way to detect duplicates.)🔥
+
+```pseudocode
+Boolean: ContainsDuplicates(Integer: array[])
+// Loop over all of the array's items.
+For i = 0 To <largest index>
+For j = 0 To <largest index>
+// See if these two items are duplicates.
+If (i != j) Then
+If (array[i] == array[j]) Then Return True
+End If
+Next j
+Next i
+// If we get to this point, there are no duplicates.
+Return False
+End ContainsDuplicates
+```
+🔥This algorithm contains two nested loops. The outer loop iterates over all the
+array’s N items, so it takes O(N) steps.
+For each trip through the outer loop, the inner loop also iterates over the N
+items in the array, so it also takes O(N) steps.
+Because one loop is nested inside the other, the combined performance is
+O N ( ) N O(N2).
 #### 🗼Rule
+---
+Ignore constant multiples. If C is a constant, O(Cxf(N)) is the same as O(f(N)),
+and O(f(CxN)) is the same as O(f(N)).
+
+If you look again at the ContainsDuplicates algorithm shown in the preceding
+section, you’ll see that the inner loop actually performs one or two steps. It performs an If test to see if the indices i and j are the same. If they are different,
+it compares array[i] and array[j]. It may also return the value True.
+
+If you ignore the extra step for the Return statement (it happens at most only
+once) and you assume that the algorithm performs both of the If statements
+(as it does most of the time), then the inner loop takes 
+O  (2xN) steps. Therefore,
+the algorithm’s total performance is O(Nx2xN)=O(2xN^2).
+
+Rule 5 lets you ignore the factor of 2, so the run time is O(N)^2 .
+This rule really goes back to the purpose of Big O notation. The idea is to get
+a feeling for the algorithm’s behavior as N increases. In this case, suppose that
+you increase N by a factor of 2.
+
+If you plug the value 2xN into the equation 2 N^2, you get the 
+following:
+$$
+2*(2*N)^2 = 2*4*N^2 = 8*N^2
+$$
+
+This is four times the original value 2*N^2, so the run time has increased by a
+factor of 4.
+
+Now try the same thing with the run time simplified by rule 5 to O(N)^2 .
+Plugging 2 N into this equation gives the following:
+
+$$
+(2*N)^2 = 4*N^2
+$$
+
+This is four times the original value N^2, so this also means that the run time
+has increased by a factor of 4.
+
+Whether you use the formula 2*N^2 or just N^2, the result is the same: increasing
+the size of the problem by a factor of 2 increases the run time by a factor of 4. The
+important thing here isn’t the constant; it’s the fact that the run time increases
+as the square of the number of inputs N.
+****
+⚠️ **NOTE** ⚠️ It’s important to remember that Big O notation is just intended to give you
+an idea of an algorithm’s theoretical behavior. Your results in practice may be different.Chapter 1 ■ Algorithm Basics 11
+For example, suppose an algorithm’s performance is O(N), but if you don’t ignore the
+constants, the actual number of steps executed is something like 100,000,000 + N.
+Unless N is really big, you may not be able to safely ignore the constant.
 ****
 #### 🗼Common Run Time Functions
-****
+
+---
+
 #### 🗼Log N
-****
+
+---
+
 #### 🗼Sqrt N
-****
+
+---
+
 #### 🗼N
-****
+
+---
+
 #### 🗼N log N
-****
+
+---
+
 #### 🗼N2
-****
+
+---
+
 #### 🗼2N
-****
+
+---
+
 #### 🗼N!
-****
+
+---
+
 #### 🗼Visualizing Functions
-****
+
+---
+
 #### 🗼Practical Considerations
-****
+
+---
+
 #### 🗼Summary
-****
+
+---
+
 #### 🗼Exercises
-****
+
+---
+
 ## Chapter 2 Numerical Algorithms
-****
+
+---
+
 ## Chapter 3 Linked Lists
-****
+
+---
+
 ## Chapter 4 Arrays
-****
+
+---
+
 ## Chapter 5 Stacks and Queues
-****
+
+---
+
 ## Chapter 6 Sorting
-****
+
+---
+
 ## Chapter 7 Searching
-****
+
+---
+
 ## Chapter 8 Hash Tables
-****
+
+---
+
 ## Chapter 9 Recursion
-****
+
+---
+
 ## Chapter 10 Trees
-****
+
+---
+
 ## Chapter 11 Balanced Trees
-****
+
+---
+
 ## Chapter 12 Decision Trees
-****
+
+---
+
 ## Chapter 13 Basic Network Algorithms
-****
+
+---
+
 ## Chapter 14 More Network Algorithms
-****
+
+---
+
 ## Chapter 15 String Algorithms
-****
+
+---
+
 ## Chapter 16 Cryptography
-****
+
+---
+
 ## Chapter 17 Complexity Theory
-****
+
+---
+
 ## Chapter 18 Distributed Algorithms
-****
+
+---
+
 ## Chapter 19 Interview Puzzles
-****
+
+---
+
 ## Appendix A Summary of Algorithmic Concepts
-****
+
+---
+
 ## Appendix B Solutions to Exercises
-****
+
+---
+
 ## Glossary
-****
+
+---
+
 ## Index
-****
+
+---
